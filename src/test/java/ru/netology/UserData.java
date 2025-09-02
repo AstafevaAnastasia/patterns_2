@@ -1,14 +1,10 @@
 package ru.netology;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.Value;
 
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
+@Value
 public class UserData {
-    private String login;
-    private String password;
-    private String status;
+    String login;
+    String password;
+    String status;
 }
